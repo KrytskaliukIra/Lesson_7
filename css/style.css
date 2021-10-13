@@ -1,0 +1,394 @@
+/* &display=swap&subset=cyrillic-ext  */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap&subset=cyrillic-ext");
+
+@font-face {
+	font-family: "Acrom";
+	src: url("../fonts/Acrom-Regular.woff2") format("woff2"), url("../fonts/Acrom-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Acrom";
+	src: url("../fonts/Acrom-Bold.woff2") format("woff2"), url("../fonts/Acrom-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	vertical-align: middle;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 20px;
+	line-height: 1.25;
+}
+body {
+	font-family: "Acrom", sans-serif;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ------------------------------ */
+
+.header,
+.footer {
+	background: #000000;
+	color: #ff0000;
+	font-size: 50px;
+	font-weight: 700;
+	text-align: center;
+	padding: 50px;
+}
+main {
+	background: url("../img/fon.jpg");
+}
+.h2 {
+	color: #ffffff;
+	background: rgb(0, 0, 0, 0.5);
+	border: #ffffff 2px solid;
+	border-radius: 15px;
+	font-weight: 400;
+	font-size: 30px;
+	max-width: 400px;
+	padding: 15px;
+	margin: 0px auto 30px auto;
+}
+.conteiner {
+	text-align: center;
+	padding: 40px 50px 40px 50px;
+}
+.block {
+	color: #ff0000;
+	display: inline-block;
+	min-height: 200px;
+	width: 250px;
+	font-weight: 400;
+	border: #ffffff 2px solid;
+	border-radius: 10px;
+	padding: 30px 30px;
+	margin: 0px 30px 20px 0px;
+}
+.color1 {
+	background: #000000;
+}
+.color2 {
+	background: rgba(255, 253, 253, 0.7);
+}
+.image1 {
+	background: url("../img/simplcity.jpg") 50% / cover;
+}
+.image2 {
+	background: linear-gradient(
+		135deg,
+		rgba(174, 188, 191, 1) 0%,
+		rgba(110, 119, 116, 1) 50%,
+		rgba(10, 14, 10, 1) 51%,
+		rgba(10, 8, 9, 1) 100%
+	);
+}
+.image3 {
+	background: radial-gradient(ellipse at center, rgba(234, 234, 234, 1) 0%, rgba(14, 14, 14, 1) 100%);
+}
+.repeat1 {
+	background: url("../img/smalltree.jpg");
+}
+.repeat2 {
+	background: url("../img/smalltree.jpg") no-repeat;
+}
+.repeat3 {
+	background: url("../img/smalltree.jpg") repeat-x;
+}
+.repeat4 {
+	background: url("../img/smalltree.jpg") repeat-y;
+}
+.repeat5 {
+	background: url("../img/smalltree.jpg") space;
+}
+.repeat6 {
+	background: url("../img/smalltree.jpg") round;
+}
+.position1 {
+	background: #000000 url("../img/smallclock.jpg") no-repeat;
+}
+.position2 {
+	background: #000000 url("../img/smallclock.jpg") 50% no-repeat;
+}
+.position3 {
+	background: #000000 url("../img/smallclock.jpg") 100% 50% no-repeat;
+}
+.position4 {
+	background: #000000 url("../img/smallclock.jpg") 0% 100% no-repeat;
+}
+.position5 {
+	background: #000000 url("../img/smallclock.jpg") 150px 120px no-repeat;
+}
+.text {
+	font-size: 16px;
+	color: #000000;
+}
+.attachment1 {
+	display: block;
+	overflow: auto;
+	max-height: 250px;
+	width: 920px;
+	background: url("../img/clock.png") no-repeat;
+}
+.attachment2 {
+	display: block;
+	overflow: auto;
+	max-height: 250px;
+	width: 920px;
+	background: url("../img/clock.png") no-repeat fixed;
+}
+.attachment3 {
+	display: block;
+	overflow: auto;
+	width: 920px;
+	max-height: 250px;
+	background: url("../img/clock.png") no-repeat local;
+}
+.size1 {
+	background: url("../img/tree.jpg");
+}
+.size2 {
+	background: url("../img/tree.jpg") 0 0 / 100% auto no-repeat;
+}
+.size3 {
+	background: url("../img/tree.jpg") 50% / auto 100% no-repeat;
+}
+.size4 {
+	background: url("../img/tree.jpg") 0 0 / 100% 100% no-repeat;
+}
+.size5 {
+	background: url("../img/tree.jpg") 50% / contain no-repeat;
+}
+.size6 {
+	background: url("../img/tree.jpg") 50% / cover no-repeat;
+}
+.size7 {
+	background: url("../img/tree.jpg") 0 100% / 100px 100px no-repeat;
+}
+.many1 {
+	background: radial-gradient(ellipse at center, rgba(234, 234, 234, 0.7) 0%, rgba(14, 14, 14, 0.7) 100%), #ff0000;
+}
+.many2 {
+	background: url("../img/smalltree.jpg") 20px 70px / 80px 100px no-repeat, #ffffff;
+}
+.many3 {
+	background: url("../img/smalltree.jpg") 160px 90px / 80px 100px no-repeat,
+		url("../img/smallclock.jpg") 10px 10px / 50px 50px no-repeat, #000000;
+}
+.many4 {
+	background: url("../img/smallclock.jpg") 20px 130px / 50px 50px no-repeat,
+		url("../img/smalltree.jpg") 85px 80px / 80px 100px no-repeat,
+		url("../img/smallclock.jpg") 180px 130px / 50px 50px no-repeat;
+}
+.list {
+	text-align: left;
+	border: 2px #ffffff solid;
+	border-radius: 10px;
+	padding: 5px 40px 5px 5px;
+	margin: 0px 0px 20px 0px;
+	color: #ffffff;
+	background: url("../img/smalltree.jpg") 99% 50% / 20px 25px no-repeat, #000000;
+}
+.maket1 {
+	display: inline-block;
+	padding: 5px 5px 5px 5px;
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	letter-spacing: 0.15px;
+	text-align: left;
+	vertical-align: top;
+	color: #4b4b4b;
+	background: #ffffff;
+}
+.maket1 h3 {
+	font-weight: 700;
+	line-height: 22px;
+	text-transform: uppercase;
+	margin: 0px 0px 28px 0px;
+}
+.contact1,
+.contact2,
+.contact3,
+.contact4 {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.contact1 {
+	background: url("../img/place_24px.png") 0px 2px / 16px 16px no-repeat;
+	padding: 0px 0px 0px 42px;
+	margin: 0px 0px 16px 0px;
+}
+.contact2 {
+	background: url("../img/smartphone_24px.png") 0px 2px / 16px 16px no-repeat;
+	padding: 0px 0px 0px 42px;
+	margin: 0px 0px 16px 0px;
+}
+.contact3 {
+	background: url("../img/email_24px.png") 0px 2px / 16px 16px no-repeat;
+	padding: 0px 0px 0px 42px;
+	margin: 0px 0px 16px 0px;
+}
+.contact4 {
+	background: url("../img/timer_24px.png") 0px 2px / 16px 16px no-repeat;
+	padding: 0px 0px 0px 42px;
+}
+.maket2 {
+	font-family: "Roboto", sans-serif;
+	color: #ffffff;
+	padding: 280px 0px 232px 210px;
+	background: url("../img/Heroshot.jpg") 50% / cover no-repeat;
+}
+.maket2 .title {
+	text-align: left;
+	max-width: 583px;
+	margin: 0px 0px 48px 0px;
+}
+.maket2 h3 {
+	font-size: 56px;
+	line-height: 56px;
+	font-weight: 900;
+}
+.maket2 .button {
+	width: 211px;
+	height: 48px;
+	padding: 0px 0px 0px 15px;
+	text-align: left;
+	background: url("../img/button.png") right center no-repeat, #c40b0b;
+}
+.maket2 a {
+	font-family: "Roboto", sans-serif;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 48px;
+	/* нагуглила, что центрировать одну строку по вертикали можно, задав line-hight равно висоте блока. Работает, по-моему на данный момент лучше, чем с помощью падингов */
+}
+.h2.mg {
+	margin: 0px auto 110px auto;
+}
+.maket3 {
+	text-align: left;
+	padding: 112px 100px 212px 100px;
+	background: url("../img/bluefon.png") 0 0 / cover no-repeat;
+	font-family: "Roboto", sans-serif;
+	color: #ffffff;
+}
+.imgtop {
+	display: inline-block;
+	max-width: 498px;
+	margin: -192px 0px 86px 0px;
+	vertical-align: top;
+}
+.titles {
+	display: inline-block;
+	max-width: 411px;
+	text-align: justify;
+	margin: 0px 111px 0px 0px;
+}
+.maket3 .title {
+	background: url("../img/OverlineMark.png") 0 50% no-repeat;
+	padding: 0px 0px 0px 33px;
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	color: #d5d5d5;
+	/* margin: 0px 0px 32px 0px; */
+}
+.maket3 .subtitle {
+	text-align: left;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+}
+.icons {
+	text-align: center;
+	font-size: 0px;
+	vertical-align: top;
+	margin: 0px 24px 0px 0px;
+}
+.icon1,
+.icon2,
+.icon3,
+.icon4 {
+	display: inline-block;
+	text-align: left;
+	padding: 0px 0px 0px 88px;
+	min-height: 76px;
+	width: 237px;
+	margin: 0px 0px 19px 0px;
+}
+.icon1 {
+	background: url("../img/Vector1.png") 0 0 no-repeat;
+}
+.icon2 {
+	background: url("../img/vector2.png") 0 0 no-repeat;
+}
+.icon3 {
+	background: url("../img/vector3.png") 0 0 no-repeat;
+}
+.icon4 {
+	background: url("../img/vector4.png") 0 0 no-repeat;
+}
+.redtext {
+	display: block;
+	color: #c40b0b;
+	font-size: 36px;
+	line-height: 42px;
+	font-weight: 900;
+	margin: 0px 0px 3px 0px;
+}
+.whitetext {
+	display: block;
+	color: #f5f5f5;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+}
+.footer a {
+	color: #ff0000;
+}
